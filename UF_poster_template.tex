@@ -1,0 +1,85 @@
+\documentclass{beamer}
+\usetheme{Pittsburgh}
+\usepackage{xcolor}
+\definecolor{UFOrange}{RGB}{243,112,33}
+\definecolor{UFBlue}{RGB}{0,84,150}
+\usecolortheme[named=UFOrange]{structure}
+\setbeamercolor{normal text}{fg=UFBlue}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{tgbonum}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{marvosym}
+\usepackage[absolute, overlay]{textpos}
+\usepackage{hyperref}
+\usepackage{url}
+\usefonttheme{structuresmallcapsserif}
+\usefonttheme{serif}
+\setbeamercolor{author}{fg=UFBlue}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{frametitle}{size=\large}
+\setbeamertemplate{enumerate items}[default]
+\author{Ethan White, Department of Wildlife Ecology \& Conservation and the Informatics Institute, University of Florida, Gainesville, FL, USA}
+\title[17pt]{Title}
+\date{}
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[orientation=landscape,size=a0,scale=1.4,debug]{beamerposter}
+ 
+\begin{document}
+\begin{center} 
+\begin{Huge}
+\rule{\linewidth}{0.25cm}
+\textsc{%textsc makes text small caps
+\color{UFOrange}{Really Awesome Poster Title}}\\
+ 
+\end{Huge}  
+\begin{large} 
+\textsc{Ethan White}, \color{UFOrange}{Department of Wildlife Ecology \& Conservation and the Informatics Institute, University of Florida, Gainesville, FL, USA}, \color{UFBlue}{@ethanwhite}\\
+\end{large}
+\end{center}
+\begin{center}
+\rule{\linewidth}{0.3cm}
+\begin{minipage}{0.25\linewidth}
+\begin{Large}
+\vspace{0.5cm}
+~\\
+~\\
+\textsc{\color{UFOrange}{Summary}}\\
+\end{Large}
+Introductory text goes here, et cetera, et cetera, etcetera.\\
+
+
+\begin{Large}
+\textsc{\color{UFOrange}{Methods}}\\
+\end{Large}
+Methods go here\\
+~\\
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}{0.42\linewidth}
+\vspace{0.5cm}
+\begin{center}
+\begin{huge}
+\textsc{\color{UFOrange}{Results}\\}
+\end{huge}
+\end{center}
+Results and figures go here.\\
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}{0.25\linewidth}
+\vspace{0.5cm}
+~\\
+\begin{Large}
+\textsc{\color{UFOrange}{Discussion}}\\
+\end{Large}
+Discussion goes here.\\
+
+\begin{Large}
+\textsc{\color{UFOrange}{Literature Cited}}\\
+\end{Large}
+Literature cited goes here.
+\end{minipage}
+\end{center}
+\end{document}
